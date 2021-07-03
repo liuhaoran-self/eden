@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cbfh",
+  "version": "${version}",
+
+  "name": "Eden",
+  "description": "Ohhhhhh!",
+  "authors": [
+    "Me!",
+    "cbfh"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://gitee.com/cbfh/fabric-mod/"
+  },
+
+  "license": "Apache-2.0",
+  "icon": "assets/cbfh/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.cbfh.eden.Main"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "mixins": [
+    "cbfh.mixins.json"
+  ]
+}
