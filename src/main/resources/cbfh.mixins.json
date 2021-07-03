@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "xyz.cbfh.infinity.mixin",
+  "package": "xyz.cbfh.eden.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
