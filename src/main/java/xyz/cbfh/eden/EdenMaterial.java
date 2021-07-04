@@ -4,7 +4,6 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public class EdenMaterial implements ToolMaterial {
-
     @Override
     public int getDurability() {
         return 10;//耐久值
@@ -12,7 +11,7 @@ public class EdenMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 29.0f;//伤害值
+        return 14.0f;//伤害值
     }
 
     @Override
@@ -27,7 +26,7 @@ public class EdenMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;//修复配方，可选
+        return Ingredient.ofItems(Main.EDEN_MATERIAL);//修复配方，可选
     }
 
     @Override

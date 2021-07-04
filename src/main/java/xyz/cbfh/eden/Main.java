@@ -10,8 +10,8 @@ import xyz.cbfh.eden.Tools.Sword;
 public class Main implements ModInitializer {
 
 	public static final ItemGroup EDEN_THINGS = FabricItemGroupBuilder.build(new Identifier("cbfh", "eden_things"), () -> new ItemStack((ItemConvertible) Main.EDEN_MATERIAL));
-    public static final EdenItem EDEN_MATERIAL = new EdenItem(new Item.Settings().group(Main.EDEN_THINGS).rarity(Rarity.EPIC));
-    public static final String MODID = "cbfh";
+    public static final Edenium EDEN_MATERIAL = new Edenium(Edenium.EDENIUM);
+    public static String MODID = "cbfh";
     @Override
     public void onInitialize() {
         Registry.register(Registry.ITEM, new Identifier(MODID, "eden_material"), EDEN_MATERIAL);
