@@ -2,7 +2,6 @@ package xyz.cbfh.eden;
 
 import net.minecraft.item.*;
 import net.minecraft.item.ItemStack;
-import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.*;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -11,7 +10,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.Rarity;
 
 public class Edenium extends Item{
-	public static Settings EDENIUM = new Item.Settings().group(Main.EDEN_THINGS).rarity(Rarity.EPIC).fireproof();
+	public static Settings EDENIUM = new Item.Settings()/*.group(Main.EDEN_THINGS)*/.rarity(Rarity.EPIC).fireproof();
 	public Edenium(Settings settings) {
 		super(settings);
 	}

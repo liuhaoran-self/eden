@@ -9,7 +9,7 @@ import xyz.cbfh.eden.Tools.Sword;
 
 public class Main implements ModInitializer {
 
-	public static final ItemGroup EDEN_THINGS = FabricItemGroupBuilder.build(new Identifier("cbfh", "eden_things"), () -> new ItemStack((ItemConvertible) Main.EDEN_MATERIAL));
+	//public static final ItemGroup EDEN_THINGS = FabricItemGroupBuilder.build(new Identifier("cbfh", "eden_things"), () -> new ItemStack((ItemConvertible) Main.EDEN_MATERIAL));
     public static final Edenium EDEN_MATERIAL = new Edenium(Edenium.EDENIUM);
     public static String MODID = "cbfh";
     @Override

@@ -6,12 +6,12 @@ import net.minecraft.recipe.Ingredient;
 public class EdenMaterial implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 10;//耐久值
+        return 1000;//耐久值
     }
 
     @Override
     public float getAttackDamage() {
-        return 14.0f;//伤害值
+        return 7.0f;//伤害值
     }
 
     @Override
